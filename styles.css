@@ -80,3 +80,8 @@ p {
   margin-top: 1.2rem;
   border-radius: 0.8rem;
 }
+
+.social-link:hover {
+  color: var(--green);
+  transition: color 0.3s ease;
+}
