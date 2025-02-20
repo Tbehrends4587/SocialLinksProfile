@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub pages link](https://your-solution-url.com)
-- Live Site URL: [GitHub repo](https://your-live-site-url.com)
+- Solution URL: [GitHub pages link](https://github.com/Tbehrends4587/SocialLinksProfile)
+- Live Site URL: [GitHub repo](https://tbehrends4587.github.io/SocialLinksProfile/)
 
 ## My process
 
@@ -49,8 +49,8 @@ The sizing is the most difficult part of these challenges. Something that I am s
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Tbehrends4587)
-- Twitter - [@yourusername](https://www.twitter.com/doggielover234)
+- Frontend Mentor - [@Tbehrends4587](https://www.frontendmentor.io/profile/Tbehrends4587)
+- Twitter - [@doggielover234](https://www.twitter.com/doggielover234)
 
 
 ## Acknowledgments
