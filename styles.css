@@ -19,7 +19,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /* Typography */
@@ -44,44 +45,58 @@ p {
   margin: 0 0 0.8rem 0;
 }
 
-.socialLinksCard {
+.profile-card {
   text-align: center;
   background-color: hsl(0, 0%, 12%);
   padding: 2rem;
   box-sizing: border-box;
   border-radius: 0.8rem;
-  width: 30rem;
-  max-width: 32rem;
+  width: 32rem;
 }
 
-.profilePicture {
+.profile-card__image {
   width: 6.4rem;
   height: 6.4rem;
   border-radius: 50%;
   margin-bottom: 1.8rem;
 }
 
-.socialLinks {
-  width: 100%;
+.profile-card__name {
+  font-size: clamp(2rem, 2.5vh, 2.4rem);
 }
 
-.social-links-list {
+.profile-card__location {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--green);
+}
+
+.profile-card__bio {
+  font-size: clamp(1.4rem, 1.8vh, 1.6rem);
+  opacity: 0.8;
+}
+
+.social-links {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.social-link {
+.social-button {
   text-decoration: none;
   color: var(--white);
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 1.2rem;
   background-color: var(--grey-700);
   margin-top: 1.2rem;
   border-radius: 0.8rem;
+  font-weight: 600;
 }
 
-.social-link:hover {
-  color: var(--green);
-  transition: color 0.3s ease;
+.social-button:hover {
+  background-color: var(--green);
+  color: var(--grey-900);
+  transition: background-color color 0.3s ease;
 }
