@@ -69,7 +69,7 @@ p {
 }
 
 .profile-card__bio {
-  font-size: clamp(1.4rem, 1.6rem, 1.6rem);
+  font-size: clamp(1.2rem, 1.4rem, 1.6rem);
   opacity: 0.8;
 }
 
